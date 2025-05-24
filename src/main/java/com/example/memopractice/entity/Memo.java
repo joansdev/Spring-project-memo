@@ -18,4 +18,9 @@ public class Memo {
         this.title = dto.getTitle();
         this.contents = dto.getContents();
     }
+
+    // 제목 수정 메소드
+    public void updateTitle(RequestDto dto) {
+        this.title = dto.getTitle();
+    }
 }
